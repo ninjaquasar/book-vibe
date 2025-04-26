@@ -17,6 +17,11 @@
   cursor: url(/cursor.png), default;
 }
 
+:root::selection {
+  color: var(--color-primary);
+  background-color: #f9fff9;
+}
+
 button, a {
   cursor: url(/pointer.png), pointer;
 }
