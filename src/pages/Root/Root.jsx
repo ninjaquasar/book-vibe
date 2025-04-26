@@ -1,11 +1,12 @@
 import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
 
 const Root = () => {
     return (
         <>
-            <header></header>
-            <main></main>
-            <footer></footer>
+            <header>
+                <Navbar></Navbar>
+            </header>
         </>
     );
 };
