@@ -1,33 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 @import "tailwindcss";
 
 @theme {
-  --font-base: "Work Sans", Helvetica, sans-serif;
-  --color-base: #f6f6f6;
-  --color-text: #171717;
-  --color-primary: #23be0a;
+	--font-base: "Work Sans", Helvetica, sans-serif;
+	--color-base: #f6f6f6;
+	--color-text: #171717;
+	--color-primary: #23be0a;
+	--cursor-click: url(/pointer.png), auto;
 }
 
 :root {
-  font-family: var(--font-base);
-  color-scheme: light;
-  color: var(--color-text);
-  background-color: var(--color-base);
-  cursor: url(/cursor.png), default;
+	font-family: var(--font-base);
+	color-scheme: light;
+	color: var(--color-text);
+	background-color: var(--color-base);
+	cursor: url(/cursor.png), default;
 }
 
 :root::selection {
-  color: var(--color-primary);
-  background-color: #f9fff9;
+	color: var(--color-primary);
+	background-color: #f9fff9;
 }
 
-button, a {
-  cursor: url(/pointer.png), pointer;
+button,
+a {
+	cursor: url(/pointer.png), pointer;
 }
 
 nav ul a.active {
-  font-weight: 600;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+	font-weight: 600;
+	color: var(--color-primary);
+	border: 1px solid var(--color-primary);
 }
